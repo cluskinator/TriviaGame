@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Around The World
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lusitana" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="introScreen">
+        <div class="introBox">
+            <h1>We are going to take a trip...around the world!</h1>
+            <button type="button" id="startBtn" class="btn btn-primary">Let's go!</button>
+        </div>
+    </div>
+
+    <div id="answerScreen">
+        <div class="resultsBox">
+            <h1>How was your trip around the world?</h1>
+            <p id="correctResults">Correct Answers: </p>
+            <p id="wrongResults">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 style="color: green">Around the world...!</h1>
+        <div class="timeRemaining" style="color: navy">Tempus fugit.
+            <div id="timeRemaining">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" class="btn btn-primary" id="subBtn">Click to submit!</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js "></script>
+</body>

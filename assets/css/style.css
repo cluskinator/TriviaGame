@@ -1,0 +1,78 @@
+body {
+    background-image: url('../images/old-world-map.jpg');
+    font-family: 'Lusitana', serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+body .container {
+    font-family: 'Lusitana', serif;
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    display: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+header {
+    font-family: 'Lusitana', serif;
+    font-size: 60px;
+    color: black;
+    margin-top: 5%;
+}
+
+#introScreen {
+    font-family: 'Lusitana', serif;
+    background-color: white;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.resultsBox {
+    font-family: 'Lusitana', serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.introBox {
+    font-family: 'Lusitana', serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
+}
+
+#answerScreen {
+    font-family: 'Lusitana', serif;
+    background-color: white;
+    display: none;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 30px;
+}
+
+#timesUp {
+    font-style: bold;
+    font-family: 'Lusitana', serif;
+    display: none;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+.timeRemaining {
+    font-family: 'Lusitana', serif;
+    font-size: 40px;
+}
+
+.questions {
+    font-family: 'Lusitana', serif;
+    font-size: 25px;
+}
